@@ -26,3 +26,5 @@ main.py is the main file of the project. You can run it using the following para
 - \-\-numnbr: the number of pairs, e.g. 25 for reuters/TMC and 100 for agnews.
 
 Additional parameters can be found in the main.py file and should be tuned for obtaining the best results. However, the default values will also work well.
+While training, a pickle file is saved containing the hash codes: codes = filecontent[0]
+
